@@ -10,6 +10,7 @@
 ## Lobachevsky University Electrocardiography Database
 ECG signal database with marked boundaries and peaks of P,T waves and QRS complexes
 
+
 -200개의 records로 이루어짐
 
 -1개의 record 안에 sex, age(10), dignosis, i, ii, iii, avr, avl, avf, v1, v2, v3, v4, v5, v6
@@ -30,16 +31,16 @@ ECG signal database with marked boundaries and peaks of P,T waves and QRS comple
 ## 좌심실 비대증 여부 classification 예측 모델 구축하기
 
 
-1. 좌심실 비대증(LHV)이란:
+### 1. 좌심실 비대증(LHV)이란:
 
 심혈관질환 발생 예측의 중요한 전조질환으로, 심전도 검사의 주된 목적 중 하나.
 
 
 
-2. 해당 문제 정의의 이유
+### 2. 해당 문제 정의의 이유
 
 
-2-1. 좌심실 비대증 진단의 중요성
+#### 2-1. 좌심실 비대증 진단의 중요성
 
 2005년 가정의학회지에 기재된 ‘좌심실 비대의 진단 방법으로서 심전도’에 따르면 LVH의 경우, 심전도검사에서 민감도는 낮고 특이도는 높은 경향을 보임. 
 
@@ -50,7 +51,7 @@ LVH를 더 정확하게 진단하는 방법으로는 심장 초음파 검사가 
 그렇기 때문에 일차 의료에서 행해질 수 있는 간단한 1차 검사인 심전도 검사 데이터에서 LVH를 잘 분류해내는 것은 빠르게 심장에 이상이 있음을 감지하고 한 발 더 빠른 의학적조치를 가능하게 함.
 
 
-2-2. 데이터의 분포
+#### 2-2. 데이터의 분포
 
 보유한 데이터에서 LVH 유무에 대한 분포를 확인해 보면 108대 92. -> 균형 잡힌 데이터 분포
 
